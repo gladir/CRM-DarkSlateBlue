@@ -1,0 +1,53 @@
+@model IEnumerable<CRM.Web.Models.Communication>
+
+@{
+    ViewData["Title"] = "Communications";
+}
+
+<h1>Communications</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Nouvelle Communication</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.CommunicationDate)</th>
+            <th>@Html.DisplayNameFor(model => model.Type)</th>
+            <th>@Html.DisplayNameFor(model => model.Subject)</th>
+            <th>Associé à</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.CommunicationDate.ToString("yyyy-MM-dd HH:mm")</td>
+            <td><span class="badge bg-info">@item.Type</span></td>
+            <td>@Html.DisplayFor(modelItem => item.Subject)</td>
+            <td>
+                @if (item.Contact != null)
+                {
+                    <text>Contact: @item.Contact.FirstName @item.Contact.LastName</text>
+                }
+                @if (item.Client != null)
+                {
+                    <text>Client: @item.Client.CompanyName</text>
+                }
+                @if (item.Supplier != null)
+                {
+                    <text>Fournisseur: @item.Supplier.CompanyName</text>
+                }
+                @if (item.Prospect != null)
+                {
+                    <text>Prospect: @item.Prospect.CompanyName</text>
+                }
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Détails</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

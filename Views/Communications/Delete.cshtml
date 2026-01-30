@@ -1,0 +1,26 @@
+@model CRM.Web.Models.Communication
+
+@{
+    ViewData["Title"] = "Supprimer Communication";
+}
+
+<h1>Supprimer Communication</h1>
+
+<h3>Êtes-vous sûr de vouloir supprimer cette communication ?</h3>
+<div>
+    <h4>Communication</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Subject)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Subject)</dd>
+        
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CommunicationDate)</dt>
+        <dd class="col-sm-10">@Model.CommunicationDate.ToString("yyyy-MM-dd HH:mm")</dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Supprimer" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+    </form>
+</div>

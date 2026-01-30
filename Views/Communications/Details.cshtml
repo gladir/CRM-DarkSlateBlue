@@ -1,0 +1,49 @@
+@model CRM.Web.Models.Communication
+
+@{
+    ViewData["Title"] = "Détails de la Communication";
+}
+
+<h1>Détails de la Communication</h1>
+
+<div>
+    <h4>Communication</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CommunicationDate)</dt>
+        <dd class="col-sm-10">@Model.CommunicationDate.ToString("yyyy-MM-dd HH:mm")</dd>
+        
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Type)</dt>
+        <dd class="col-sm-10"><span class="badge bg-info">@Model.Type</span></dd>
+        
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Subject)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Subject)</dd>
+        
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Content)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Content)</dd>
+        
+        <dt class="col-sm-2">Associé à</dt>
+        <dd class="col-sm-10">
+            @if (Model.Contact != null)
+            {
+                <text>Contact: @Model.Contact.FirstName @Model.Contact.LastName</text>
+            }
+            @if (Model.Client != null)
+            {
+                <text>Client: @Model.Client.CompanyName</text>
+            }
+            @if (Model.Supplier != null)
+            {
+                <text>Fournisseur: @Model.Supplier.CompanyName</text>
+            }
+            @if (Model.Prospect != null)
+            {
+                <text>Prospect: @Model.Prospect.CompanyName</text>
+            }
+        </dd>
+    </dl>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+</div>

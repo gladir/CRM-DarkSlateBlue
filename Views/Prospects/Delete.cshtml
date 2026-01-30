@@ -1,0 +1,23 @@
+@model CRM.Web.Models.Prospect
+
+@{
+    ViewData["Title"] = "Supprimer Prospect";
+}
+
+<h1>Supprimer Prospect</h1>
+
+<h3>Êtes-vous sûr de vouloir supprimer ce prospect ?</h3>
+<div>
+    <h4>Prospect</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CompanyName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.CompanyName)</dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Supprimer" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+    </form>
+</div>
