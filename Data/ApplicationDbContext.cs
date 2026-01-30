@@ -16,7 +16,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     {
         base.OnModelCreating(builder);
 
-        // Configure relationships
+        // Configuration des relations
         builder.Entity<Communication>()
             .HasOne(c => c.Contact)
             .WithMany(co => co.Communications)

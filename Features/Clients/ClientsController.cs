@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using CRM.Web.Data;
@@ -16,7 +16,7 @@ public class ClientsController : Controller
         _context = context;
     }
 
-    // GET: Clients
+    // GET: Clients - Affiche la liste des clients
     public async Task<IActionResult> Index()
     {
         var clients = await _context.Clients
@@ -25,7 +25,7 @@ public class ClientsController : Controller
         return View(clients);
     }
 
-    // GET: Clients/Details/5
+    // GET: Clients/Details/5 - Affiche les détails d'un client
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -45,13 +45,13 @@ public class ClientsController : Controller
         return View(client);
     }
 
-    // GET: Clients/Create
+    // GET: Clients/Create - Affiche le formulaire de création d'un client
     public IActionResult Create()
     {
         return View();
     }
 
-    // POST: Clients/Create
+    // POST: Clients/Create - Traite la création d'un nouveau client
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("CompanyName,ContactPerson,Email,Phone,Address,TaxNumber,CreditLimit")] Client client)
@@ -66,7 +66,7 @@ public class ClientsController : Controller
         return View(client);
     }
 
-    // GET: Clients/Edit/5
+    // GET: Clients/Edit/5 - Affiche le formulaire de modification d'un client
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null)
@@ -82,7 +82,7 @@ public class ClientsController : Controller
         return View(client);
     }
 
-    // POST: Clients/Edit/5
+    // POST: Clients/Edit/5 - Traite la modification d'un client
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, [Bind("Id,CompanyName,ContactPerson,Email,Phone,Address,TaxNumber,CreditLimit,CreatedAt")] Client client)
@@ -116,7 +116,7 @@ public class ClientsController : Controller
         return View(client);
     }
 
-    // GET: Clients/Delete/5
+    // GET: Clients/Delete/5 - Affiche la page de confirmation de suppression
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -134,7 +134,7 @@ public class ClientsController : Controller
         return View(client);
     }
 
-    // POST: Clients/Delete/5
+    // POST: Clients/Delete/5 - Traite la suppression d'un client
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)

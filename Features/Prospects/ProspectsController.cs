@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using CRM.Web.Data;
@@ -16,7 +16,7 @@ public class ProspectsController : Controller
         _context = context;
     }
 
-    // GET: Prospects
+    // GET: Prospects - Affiche la liste des prospects
     public async Task<IActionResult> Index()
     {
         var prospects = await _context.Prospects
@@ -25,7 +25,7 @@ public class ProspectsController : Controller
         return View(prospects);
     }
 
-    // GET: Prospects/Details/5
+    // GET: Prospects/Details/5 - Affiche les détails
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -45,13 +45,13 @@ public class ProspectsController : Controller
         return View(prospect);
     }
 
-    // GET: Prospects/Create
+    // GET: Prospects/Create - Affiche le formulaire de création
     public IActionResult Create()
     {
         return View();
     }
 
-    // POST: Prospects/Create
+    // POST: Prospects/Create - Traite la création
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("CompanyName,ContactPerson,Email,Phone,Address,Status,EstimatedValue,Notes")] Prospect prospect)
@@ -66,7 +66,7 @@ public class ProspectsController : Controller
         return View(prospect);
     }
 
-    // GET: Prospects/Edit/5
+    // GET: Prospects/Edit/5 - Affiche le formulaire de modification
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null)
@@ -82,7 +82,7 @@ public class ProspectsController : Controller
         return View(prospect);
     }
 
-    // POST: Prospects/Edit/5
+    // POST: Prospects/Edit/5 - Traite la modification
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, [Bind("Id,CompanyName,ContactPerson,Email,Phone,Address,Status,EstimatedValue,Notes,CreatedAt")] Prospect prospect)
@@ -116,7 +116,7 @@ public class ProspectsController : Controller
         return View(prospect);
     }
 
-    // GET: Prospects/Delete/5
+    // GET: Prospects/Delete/5 - Affiche la page de confirmation de suppression
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -134,7 +134,7 @@ public class ProspectsController : Controller
         return View(prospect);
     }
 
-    // POST: Prospects/Delete/5
+    // POST: Prospects/Delete/5 - Traite la suppression
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)

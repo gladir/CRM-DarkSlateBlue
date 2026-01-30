@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using CRM.Web.Data;
@@ -16,7 +16,7 @@ public class SuppliersController : Controller
         _context = context;
     }
 
-    // GET: Suppliers
+    // GET: Suppliers - Affiche la liste des fournisseurs
     public async Task<IActionResult> Index()
     {
         var suppliers = await _context.Suppliers
@@ -25,7 +25,7 @@ public class SuppliersController : Controller
         return View(suppliers);
     }
 
-    // GET: Suppliers/Details/5
+    // GET: Suppliers/Details/5 - Affiche les détails
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -45,13 +45,13 @@ public class SuppliersController : Controller
         return View(supplier);
     }
 
-    // GET: Suppliers/Create
+    // GET: Suppliers/Create - Affiche le formulaire de création
     public IActionResult Create()
     {
         return View();
     }
 
-    // POST: Suppliers/Create
+    // POST: Suppliers/Create - Traite la création
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("CompanyName,ContactPerson,Email,Phone,Address,TaxNumber,Category")] Supplier supplier)
@@ -66,7 +66,7 @@ public class SuppliersController : Controller
         return View(supplier);
     }
 
-    // GET: Suppliers/Edit/5
+    // GET: Suppliers/Edit/5 - Affiche le formulaire de modification
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null)
@@ -82,7 +82,7 @@ public class SuppliersController : Controller
         return View(supplier);
     }
 
-    // POST: Suppliers/Edit/5
+    // POST: Suppliers/Edit/5 - Traite la modification
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, [Bind("Id,CompanyName,ContactPerson,Email,Phone,Address,TaxNumber,Category,CreatedAt")] Supplier supplier)
@@ -116,7 +116,7 @@ public class SuppliersController : Controller
         return View(supplier);
     }
 
-    // GET: Suppliers/Delete/5
+    // GET: Suppliers/Delete/5 - Affiche la page de confirmation de suppression
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -134,7 +134,7 @@ public class SuppliersController : Controller
         return View(supplier);
     }
 
-    // POST: Suppliers/Delete/5
+    // POST: Suppliers/Delete/5 - Traite la suppression
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)

@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using CRM.Web.Data;
@@ -16,7 +16,7 @@ public class CommunicationsController : Controller
         _context = context;
     }
 
-    // GET: Communications
+    // GET: Communications - Affiche la liste des communications
     public async Task<IActionResult> Index()
     {
         var communications = await _context.Communications
@@ -29,7 +29,7 @@ public class CommunicationsController : Controller
         return View(communications);
     }
 
-    // GET: Communications/Details/5
+    // GET: Communications/Details/5 - Affiche les détails
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -52,7 +52,7 @@ public class CommunicationsController : Controller
         return View(communication);
     }
 
-    // GET: Communications/Create
+    // GET: Communications/Create - Affiche le formulaire de création
     public IActionResult Create(int? contactId, int? clientId, int? supplierId, int? prospectId)
     {
         ViewBag.Contacts = _context.Contacts.ToList();
@@ -71,7 +71,7 @@ public class CommunicationsController : Controller
         return View(communication);
     }
 
-    // POST: Communications/Create
+    // POST: Communications/Create - Traite la création
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("Subject,Content,Type,CommunicationDate,ContactId,ClientId,SupplierId,ProspectId")] Communication communication)
@@ -82,7 +82,7 @@ public class CommunicationsController : Controller
             _context.Add(communication);
             await _context.SaveChangesAsync();
 
-            // Redirect back to the related entity if specified
+            // Redirection vers l'entité associée si spécifiée
             if (communication.ContactId.HasValue)
                 return RedirectToAction("Details", "Contacts", new { id = communication.ContactId });
             if (communication.ClientId.HasValue)
@@ -103,7 +103,7 @@ public class CommunicationsController : Controller
         return View(communication);
     }
 
-    // GET: Communications/Delete/5
+    // GET: Communications/Delete/5 - Affiche la page de confirmation de suppression
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -126,7 +126,7 @@ public class CommunicationsController : Controller
         return View(communication);
     }
 
-    // POST: Communications/Delete/5
+    // POST: Communications/Delete/5 - Traite la suppression
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)

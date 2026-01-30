@@ -19,145 +19,145 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = CRM.Web
 build_property.RootNamespace = CRM.Web
-build_property.ProjectDir = /home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/
+build_property.ProjectDir = C:\SOURCE\GITHUB\CRM-DarkSlateBlue\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue
+build_property.MSBuildProjectDirectory = C:\SOURCE\GITHUB\CRM-DarkSlateBlue
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Clients/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50cy9DcmVhdGUuY3NodG1s
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Clients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Clients/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50cy9EZWxldGUuY3NodG1s
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Clients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Clients/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50cy9EZXRhaWxzLmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Clients/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Clients/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50cy9FZGl0LmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Clients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Clients/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50cy9JbmRleC5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Communications/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tbXVuaWNhdGlvbnMvQ3JlYXRlLmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Communications/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Communications/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tbXVuaWNhdGlvbnMvRGVsZXRlLmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Communications/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Communications/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tbXVuaWNhdGlvbnMvRGV0YWlscy5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Communications/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Communications/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tbXVuaWNhdGlvbnMvSW5kZXguY3NodG1s
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Communications/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Contacts/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdHMvQ3JlYXRlLmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Contacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Contacts/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdHMvRGVsZXRlLmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Contacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Contacts/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdHMvRGV0YWlscy5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Contacts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Contacts/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdHMvRWRpdC5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Contacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Contacts/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdHMvSW5kZXguY3NodG1s
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Prospects/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvc3BlY3RzL0NyZWF0ZS5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Prospects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvc3BlY3RzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Prospects/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvc3BlY3RzL0RlbGV0ZS5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Prospects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvc3BlY3RzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Prospects/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvc3BlY3RzL0RldGFpbHMuY3NodG1s
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Prospects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvc3BlY3RzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Prospects/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvc3BlY3RzL0VkaXQuY3NodG1s
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Prospects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvc3BlY3RzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Prospects/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvc3BlY3RzL0luZGV4LmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Prospects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvc3BlY3RzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Suppliers/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwcGxpZXJzL0NyZWF0ZS5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Suppliers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Suppliers/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwcGxpZXJzL0RlbGV0ZS5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Suppliers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Suppliers/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwcGxpZXJzL0RldGFpbHMuY3NodG1s
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Suppliers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Suppliers/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwcGxpZXJzL0VkaXQuY3NodG1s
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Suppliers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Suppliers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwcGxpZXJzL0luZGV4LmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Suppliers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/runner/work/CRM-DarkSlateBlue/CRM-DarkSlateBlue/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-b4tp979077
+[C:/SOURCE/GITHUB/CRM-DarkSlateBlue/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fo3urobk17

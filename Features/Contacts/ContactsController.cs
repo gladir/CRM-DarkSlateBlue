@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using CRM.Web.Data;
@@ -16,7 +16,7 @@ public class ContactsController : Controller
         _context = context;
     }
 
-    // GET: Contacts
+    // GET: Contacts - Affiche la liste des contacts
     public async Task<IActionResult> Index()
     {
         var contacts = await _context.Contacts
@@ -25,7 +25,7 @@ public class ContactsController : Controller
         return View(contacts);
     }
 
-    // GET: Contacts/Details/5
+    // GET: Contacts/Details/5 - Affiche les détails d'un contact
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -45,13 +45,13 @@ public class ContactsController : Controller
         return View(contact);
     }
 
-    // GET: Contacts/Create
+    // GET: Contacts/Create - Affiche le formulaire de création
     public IActionResult Create()
     {
         return View();
     }
 
-    // POST: Contacts/Create
+    // POST: Contacts/Create - Traite la création
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("FirstName,LastName,Email,Phone,Company,Position,Address")] Contact contact)
@@ -66,7 +66,7 @@ public class ContactsController : Controller
         return View(contact);
     }
 
-    // GET: Contacts/Edit/5
+    // GET: Contacts/Edit/5 - Affiche le formulaire de modification
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null)
@@ -82,7 +82,7 @@ public class ContactsController : Controller
         return View(contact);
     }
 
-    // POST: Contacts/Edit/5
+    // POST: Contacts/Edit/5 - Traite la modification
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Email,Phone,Company,Position,Address,CreatedAt")] Contact contact)
@@ -116,7 +116,7 @@ public class ContactsController : Controller
         return View(contact);
     }
 
-    // GET: Contacts/Delete/5
+    // GET: Contacts/Delete/5 - Affiche la page de confirmation de suppression
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -134,7 +134,7 @@ public class ContactsController : Controller
         return View(contact);
     }
 
-    // POST: Contacts/Delete/5
+    // POST: Contacts/Delete/5 - Traite la suppression
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
